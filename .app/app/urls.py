@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #  sos etsi vazis ta urls ton apps sou
     path('api/user/', include('user.urls')),
+    path('api/recipe/', include('recipe.urls')),
 ]
